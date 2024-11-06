@@ -1,10 +1,7 @@
-import React from "react";
 import Header from "../components/Header";
 import { DoubleRightOutlined } from "@ant-design/icons";
 
-type Props = {};
-
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
     <div className="text-white">
       <div className="">

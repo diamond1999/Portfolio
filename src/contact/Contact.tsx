@@ -1,9 +1,6 @@
-import React from "react";
 import Header from "../components/Header";
 
-type Props = {};
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <div>
       <div className="">
@@ -18,6 +15,7 @@ const Contact = (props: Props) => {
             aspernatur minima voluptate facere sequi nisi tenetur odit, vero
             nesciunt.
           </p>
+          <div className=""></div>
         </div>
       </div>
     </div>
