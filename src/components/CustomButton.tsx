@@ -6,6 +6,7 @@ type Props = {
   type?: ButtonType;
   onclick: () => void;
   className?: string;
+  icon?: ReactNode;
 };
 
 const CustomButton = (props: Props) => {
@@ -16,6 +17,7 @@ const CustomButton = (props: Props) => {
       className={props.className}
     >
       {props.title}
+      {props.icon && <span style={{ marginLeft: 0 }}>{props.icon}</span>}
     </Button>
   );
 };
