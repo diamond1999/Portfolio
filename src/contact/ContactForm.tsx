@@ -41,12 +41,12 @@ const ContactForm: React.FC = () => {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
       layout="vertical"
-      className="!space-y-4"
+      className="!space-y-4 text-white"
     >
       <Form.Item
         label="Name"
         name="name"
-        className="!space-y-2"
+        className="!space-y-2 text-white"
         rules={[{ required: true, message: 'Please input your name!' }]}
       >
         <Input placeholder="Enter your name" />
