@@ -34,7 +34,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="!text-white mt-6 px-4 sm:px-6 md:px-10 lg:px-28">
+    <div className="!text-white mt-6 px-4 sm:px-1 md:px-10 lg:px-28">
     <Form
       name="contact_form"
       initialValues={{ remember: true }}
@@ -84,7 +84,7 @@ const ContactForm: React.FC = () => {
           htmlType="submit"
           loading={loading}
           style={{ width: '100%' }}
-          className="bg-green-400 border-none hover:bg-green-600 hover:text-black font-medium py-2"
+          className="bg-green-400 border-none hover:bg-green-400 hover:text-black active:!bg-green-400 active:!text-black font-medium py-2"
         >
           Send
         </Button>

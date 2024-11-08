@@ -11,7 +11,7 @@ const About = () => {
         <section className="max-w-screen-xl mx-auto py-16 px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                 
-                <div className="w-full col-span-1 flex flex-col sm:-mt-10 items-center">
+                <div className="w-full sm:mx-12 col-span-1 flex flex-col sm:-mt-10 items-center">
                     <div className="border-dashed border-green-400 animate-spin border-x-4 opacity-25 rounded-full w-[200px] h-[200px] mb-8"></div>
                     <div className="relative mb-8">
                         <img src="/Ajii.png" alt="Ajibola Oladapo's profile" className="bg-green-400 rounded-full bg-opacity-15 w-[150px] h-[150px] -mt-52 shadow-lg" />

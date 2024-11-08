@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="mx-28">
+    <div className="xl:mx-28">
       <div className="xl:max-h-screen md:max-h-screen w-full">
         <Header />
       </div>
 
-      <div className="text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-28 mt-8">
+      <div className="sm:mx-3 text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 lg:px-28 mt-8">
       
       <div className="col-span-1 sm:col-span-2 lg:col-span-1">
         <h3 className="text-2xl font-medium text-green-400 mb-6">Social links:</h3>

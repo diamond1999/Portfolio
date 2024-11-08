@@ -6,11 +6,11 @@ import Nav from "./Nav";
 
 const Header = () => {
   const [] = useState(false);
-  const [drawerVisible, setDrawerVisible] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   
-  const showDrawer = () => setDrawerVisible(true);
-  const closeDrawer = () => setDrawerVisible(false);
+  const showDrawer = () => setDrawerOpen(true);
+  const closeDrawer = () => setDrawerOpen(false);
 
   return (
     <div>
@@ -55,7 +55,7 @@ const Header = () => {
         title="Ajibola Oladapo"
         placement="right"
         onClose={closeDrawer}
-        visible={drawerVisible}
+        visible={drawerOpen}
         closable={true}
         width={250}
       >

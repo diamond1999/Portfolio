@@ -15,7 +15,7 @@ body{
 }
 
 :where(.css-dev-only-do-not-override-apn68).ant-input-outlined {
-  background: none;
+  background: white;
   
 }
 
