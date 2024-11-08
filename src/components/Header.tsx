@@ -8,7 +8,7 @@ const Header = () => {
   const [] = useState(false);
   const [drawerVisible, setDrawerVisible] = useState(false);
 
-  // Function to toggle the Drawer visibility
+  
   const showDrawer = () => setDrawerVisible(true);
   const closeDrawer = () => setDrawerVisible(false);
 
@@ -16,7 +16,7 @@ const Header = () => {
     <div>
       <header className="py-8 xl:mx-28 xl:py-12 text-white mx-4 md:mx-12 lg:mx-28 ">
         <div className="flex md:flex-row justify-between items-center">
-          {/* Logo */}
+         
           <div className="sm:flex w-full items-center justify-between mx-4">
           <Link to={"/home"} className="text-center md:text-left">
             <h1 className="text-4xl sm:text-2xl font-semibold">
@@ -24,7 +24,7 @@ const Header = () => {
             </h1>
           </Link>
 
-          {/* Mobile Hamburger Button */}
+          
           <button
             className="xl:hidden md:hidden text-white"
             onClick={showDrawer}
@@ -35,12 +35,12 @@ const Header = () => {
           </div>
           
 
-          {/* Desktop Navigation and Button Section */}
+         
           <div className="sm:hidden md:flex xl:flex items-center gap-8 mt-6 md:mt-0">
-            {/* Navigation */}
+            
             <Nav />
 
-            {/* Contact Button */}
+           
             <Link to={"/contact"}>
               <Button className="bg-green-400 text-black font-semibold text-md rounded-full border-none w-full md:w-auto mt-4 md:mt-0">
                 Get in touch
@@ -50,7 +50,7 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Drawer for mobile menu */}
+     
       <Drawer
         title="Ajibola Oladapo"
         placement="right"

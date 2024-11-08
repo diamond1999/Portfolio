@@ -12,11 +12,11 @@ interface ContactFormValues {
 const ContactForm: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
-  // onFinish function with typed values
+  
   const onFinish = async (values: ContactFormValues) => {
     try {
       setLoading(true);
-      // Replace the URL with your actual API endpoint
+    
       const response = await axios.post('/api/contact', values);
       message.success('Your message has been sent!');
       console.log('Response:', response.data);
@@ -28,7 +28,7 @@ const ContactForm: React.FC = () => {
     }
   };
 
-  // onFinishFailed function
+  
   const onFinishFailed = (errorInfo: any) => {
     console.log('Failed:', errorInfo);
   };

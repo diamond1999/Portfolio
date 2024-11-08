@@ -10,7 +10,7 @@ const About = () => {
         
         <section className="max-w-screen-xl mx-auto py-16 px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-                {/* Profile Section */}
+                
                 <div className="w-full col-span-1 flex flex-col sm:-mt-10 items-center">
                     <div className="border-dashed border-green-400 animate-spin border-x-4 opacity-25 rounded-full w-[200px] h-[200px] mb-8"></div>
                     <div className="relative mb-8">
@@ -18,7 +18,7 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Content Section */}
+                
                 <div className="col-span-3 text-gray-300">
                     <section className="mb-8">
                         <h3 className="text-2xl font-semibold text-green-400">Introduction</h3>

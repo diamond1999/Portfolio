@@ -9,7 +9,7 @@ const Skills = () => {
       </div>
 
       <div className="mt-4">
-  {/* Languages Section */}
+  
   <div>
     <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <p className="text-xl flex items-center gap-2 text-green-400">
@@ -33,7 +33,7 @@ const Skills = () => {
     </div>
   </div>
 
-  {/* Styling Section */}
+  
   <div className="mt-4">
     <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <p className="text-xl flex items-center gap-2 text-green-400">
@@ -57,7 +57,7 @@ const Skills = () => {
     </div>
   </div>
 
-  {/* Frameworks Section */}
+
   <div className="mt-4">
     <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <p className="text-xl flex items-center gap-2 text-green-400">
@@ -72,7 +72,7 @@ const Skills = () => {
     </div>
   </div>
 
-  {/* Design Section */}
+  
   <div className="mt-4">
     <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-28">
       <p className="text-xl flex items-center gap-2 text-green-400">
