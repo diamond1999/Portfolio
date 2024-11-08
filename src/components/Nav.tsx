@@ -6,12 +6,12 @@ const links = [
     path: "/home",
   },
   {
-    name: "skills",
-    path: "/skills",
+    name: "about",
+    path: "/about",
   },
   {
-    name: "resume",
-    path: "/resume",
+    name: "skills",
+    path: "/skills",
   },
   {
     name: "contact",

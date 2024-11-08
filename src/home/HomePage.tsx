@@ -4,34 +4,34 @@ import Header from "../components/Header";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
       <div className="">
         <Header />
       </div>
 
-      <div className="container text-white flex flex-col items-center gap-4 justify-center">
+      <div className="text-white sm:-mt-16 flex flex-col items-center gap-4 justify-center md:mx-20">
         <div className="mt-28 flex flex-col items-center gap-2">
-          <p className="text-2xl font-medium">Hey, I'm</p>
-          <h1 className="text-4xl font-bold">AJIBOLA OLADAPO</h1>
-          <p className="text-green-400 font-medium text-2xl">
+          <p className="text-2xl sm:text-lg md:text-xl  font-medium">Hey, I'm</p>
+          <h1 className="text-4xl sm:text-2xl font-bold">AJIBOLA OLADAPO</h1>
+          <p className="text-green-400 font-medium sm:text-lg text-2xl">
             Frontend Developer
           </p>
         </div>
-        <div className="flex items-center gap-6 text-gray-400 font-medium">
-          <p className="border-r border-white text-base md:text-xl pr-6">
+        <div className="flex flex-wrap items-center gap-2 text-gray-400 font-medium sm:mx-10">
+          <p className="border-r border-white md:text-xl pr-2">
             HTML
           </p>
-          <p className="border-r border-white text-base md:text-xl pr-6">CSS</p>
-          <p className="border-r border-white text-base md:text-xl pr-6">
+          <p className="border-r border-white  md:text-xl pr-2">CSS</p>
+          <p className="border-r border-white  md:text-xl pr-2">
             Tailwind CSS
           </p>
-          <p className="border-r border-white text-base md:text-xl pr-6">
+          <p className="border-r border-white  md:text-xl pr-2">
             JavaScript
           </p>
-          <p className="border-r border-white text-base md:text-xl pr-6">
+          <p className="border-r border-white  md:text-xl pr-2">
             TypeScript
           </p>
-          <p className="text-base md:text-xl">React.JS</p>
+          <p className=" md:text-xl">React.JS</p>
         </div>
 
         <div className="mt-8 flex gap-4">

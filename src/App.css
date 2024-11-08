@@ -7,9 +7,24 @@
 
 body{
   background-color: rgb(2, 16, 36);
-  /* background-image: url(/my-portfolio/public/background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+}
 
+:where(.css-dev-only-do-not-override-apn68).ant-form-item .ant-form-item-label >label {
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-input-outlined {
+  background: none;
+  
+}
+
+:where(.css-dev-only-do-not-override-apn68).ant-input-outlined:hover {
+  border-color: #4ade80;
+  background: white;
+  
+}
+:where(.css-dev-only-do-not-override-apn68).ant-input-outlined:focus {
+  border-color: #4ade80;
+  background: white;
 }
