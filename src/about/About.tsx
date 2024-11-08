@@ -1,9 +1,9 @@
-import React from 'react'
+
 import Header from '../components/Header'
 
-type Props = {}
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <div className="bg-gray-900 text-white">
         <Header />
