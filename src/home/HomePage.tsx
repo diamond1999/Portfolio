@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import CustomButton from "../components/CustomButton";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -35,6 +36,7 @@ const HomePage = () => {
         </div>
 
         <div className="mt-8 flex gap-4">
+          <Link to={"https://drive.google.com/file/d/1XN5mlquqQbPOW8euOmoTCqp-lqwn-oSg/view?usp=drive_link"}>
           <CustomButton
             title={"My Resume"}
             onclick={function (): void {
@@ -43,6 +45,8 @@ const HomePage = () => {
             className="bg-gray-600 text-gray-200 border-none font-semibold hover:!bg-green-400 hover:!text-black"
             icon={<ExternalLink />}
           />
+          </Link>
+          
         </div>
       </div>
     </div>
