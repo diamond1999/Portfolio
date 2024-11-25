@@ -36,7 +36,7 @@ const HomePage = () => {
         </div>
 
         <div className="mt-8 flex gap-4">
-          <Link to={"https://drive.google.com/file/d/1XN5mlquqQbPOW8euOmoTCqp-lqwn-oSg/view?usp=drive_link"}>
+          <Link to={"/*"}>
           <CustomButton
             title={"My Resume"}
             onclick={function (): void {
